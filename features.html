@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coza Store</title>
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;500;600;800;1000&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,300;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/arial-2" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.png" sizes="32*32" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="header container" id="header">
+        <a href="#" class="logo">
+            <img src="images/icons/logo-01.png" alt="">
+        </a>
+        <nav class="navbar" id="navbar">
+            <ul class="nav-list">
+                <li>
+                    <a href="./index.html" class="nav-link">Home</a>
+                </li>
+                <li>
+                    <a href="./shop.html" class="nav-link">Shop</a>
+                </li>
+                <li class="label-1">
+                    <a href="./features.html" class="nav-link active-link">Features</a>
+                </li>
+                <li>
+                    <a href="./blog.html" class="nav-link">Blog</a>
+                </li>
+                <li>
+                    <a href="./about.html" class="nav-link">About</a>
+                </li>
+                <li>
+                    <a href="./contact.html" class="nav-link">Contact</a>
+                </li>
+                <div class="close-list">
+                    <i class="ri-close-fill"></i>
+                </div>
+            </ul>
+        </nav>
+        <div class="header-icons">
+            <div class="search icon">
+                <i class="ri-search-line"></i>
+            </div>
+            <div class="shopping icon">
+                <i class="ri-shopping-cart-2-line"></i>
+                <span class="s-0">2</span>
+            </div>
+            <div class="heart icon">
+                <i class="ri-heart-line"></i>
+                <span class="h-0">0</span>
+            </div>
+            <div class="toggle-menu icon">
+                <i class="ri-menu-line"></i>
+            </div>
+        </div>
+        <div class="cart-items">
+            <div class="close-cart">
+                <i class="ri-close-fill"></i>
+            </div>
+            <div class="cart-title">
+                <h3>Your Cart</h3>
+            </div>
+            <div class="cart-item">
+                <div class="cart-image">
+                    <img src="images/item-cart-01.jpg" alt="">
+                    <div class="cart-text">
+                        <p>
+                            White Shirt Pleat
+                        </p>
+                        <p>
+                            1 x $19.00
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <div class="cart-image">
+                    <img src="images/item-cart-02.jpg" alt="">
+                    <div class="cart-text">
+                        <p>
+                            White Shirt Pleat
+                        </p>
+                        <p>
+                            1 x $39.00
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <div class="cart-image">
+                    <img src="images/item-cart-03.jpg" alt="">
+                    <div class="cart-text">
+                        <p>
+                            Nixon Porter Leather
+                        </p>
+                        <p>
+                            1 x $17.00
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="total">
+                <p>Total: $75.00</p>
+            </div>
+            <div class="cart-btns">
+                <a href="#">View Cart</a>
+                <a href="#">Check Out</a>
+            </div>
+        </div>
+    </header>
+    <div class="search-bar">
+        <div class="close">
+            <i class="ri-close-fill"></i>
+        </div>
+        <div class="input-search">
+            <input type="search" name="" id="" placeholder="search">
+            <i class="ri-search-line"></i>
+        </div>
+    </div>
+    <div class="features-container a-container container section">
+        <div class="features-link">
+            <a href="./index.html">Home</a>
+            <i class="ri-arrow-drop-right-line"></i>
+            <span>Shoping Cart</span>
+        </div>
+    </div>
+
+    <scetion id="cart">
+        <div class="table-container table-section container">
+            <table width="100%">
+                <thead>
+                    <tr class="table-head">
+                        <td>Product</td>
+                        <td></td>
+                        <td>Price</td>
+                        <td>Quantity</td>
+                        <td>Subtotal</td>
+                    </tr>
+                </thead>
+    
+                <tbody>
+                    <tr>
+                        <td><img src="images/item-cart-04.jpg" alt=""></td>
+                        <td>Fresh Strawberries</td>
+                        <td>$ 36.00</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$ 36.00</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/item-cart-05.jpg" alt=""></td>
+                        <td>Lightweight Jacket</td>
+                        <td>$ 16.00</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$ 16.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="table-btns">
+            <div class="f-btn">
+                <input type="text" placeholder="Coupon Code">
+                <a href="#">Apply Coupon</a>
+            </div>
+            <div class="s-btn">
+                <a href="#">UPDATE CART</a>
+            </div>
+        </div>
+    </scetion>
+
+    <section class="cart-section section">
+        <div class="cart-container container">
+                <h4 class="cart-title">Cart Totals</h4>
+            <div class="subtotal-row">
+                <p class="subtotal-label">Subtotal:</p>
+                <span class="subtotal-value">$79.65</span>
+            </div>
+
+            <div class="shipping-row">
+                <div class="shipping-label">Shipping:
+                <div class="shipping-message">
+                    <p>
+                        There are no shipping methods available.
+                        Please double check your address, or contact us if you need any help.
+                    </p>
+                </div>
+                </div>
+            <div>
+                <form action="" class="cart-form">
+                    <select class="shipping-select">
+                        <option>Select a country...</option>
+                        <option>USA</option>
+                        <option>UK</option>
+                    </select>
+    
+                    <input class="shipping-input" type="text" name="state" placeholder="State / Country">
+                    <input class="shipping-input" type="text" name="postcode" placeholder="Postcode / Zip">
+                    <a href="#" class="update-btn">Update Totals</a>
+                </form>
+            </div>
+            </div>
+
+            <div class="total-row">
+                <p class="total-label">Total:</p>
+                <span class="total-value">$79.65</span>
+            </div>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+</section>
+    
+        <footer class="footer" id="footer">
+            <div class="main_footer-container container section">
+                <div class="footer-container">
+                    <div class="footer-box">
+                        <div class="footer-title">
+                            <h3>CATEGORIES</h3>
+                            <ul class="footer-list">
+                                <li>
+                                    <a href="#">Women</a>
+                                </li>
+                                <li>
+                                    <a href="#">Men</a>
+                                </li>
+                                <li>
+                                    <a href="#">Shoes</a>
+                                </li>
+                                <li>
+                                    <a href="#">Watches</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-box">
+                        <div class="footer-title">
+                            <h3>HELP</h3>
+                            <ul class="footer-list">
+                                <li>
+                                    <a href="#">Track Order</a>
+                                </li>
+                                <li>
+                                    <a href="#">Returns</a>
+                                </li>
+                                <li>
+                                    <a href="#">Shipping</a>
+                                </li>
+                                <li>
+                                    <a href="#">FAQs</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-box">
+                        <div class="footer-title">
+                            <h3>GET IN TOUCH</h3>
+                        </div>
+                        <div class="box-description">
+                            <p>
+                                Any questions? Let us know in store at 8th floor,
+                                379 Hudson St, New York, NY 10018 or call us on (+1) 96 716 6879
+                            </p>
+                        </div>
+                        <div class="footer-social">
+                            <a href="#"><i class="ri-facebook-circle-line"></i></a>
+                            <a href="#"><i class="ri-twitter-line"></i></a>
+                            <a href="#"><i class="ri-instagram-line"></i></a>
+                            <a href="#"><i class="ri-pinterest-line"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-box newsletter">
+                        <div class="footer-title">
+                            <h3>NEWSLETTER</h3>
+                        </div>
+                        <form action="">
+                            <input type="email" name="email" id="email" placeholder="email@example.com">
+                            <input type="button" value="Subscribe">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-cards container">
+                <img src="images/icons/icon-pay-01.png" alt="pay image">
+                <img src="images/icons/icon-pay-02.png" alt="pay image">
+                <img src="images/icons/icon-pay-03.png" alt="pay image">
+                <img src="images/icons/icon-pay-04.png" alt="pay image">
+                <img src="images/icons/icon-pay-05.png" alt="pay image">
+            </div>
+            <div class="copyright container">
+                <p>&copy; Eslam Hafez | All rights reserved</p>
+            </div>
+        </footer>
+    
+        <script src="javascript/script.js"></script>
+    </body>
+    </html>
