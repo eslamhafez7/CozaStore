@@ -1378,7 +1378,7 @@ tr input:focus {
         color: var(--main-color);
         cursor: pointer;
     }
-    .contact-form {
+    .contact-left {
         border-bottom: 1px solid var(--text-color-light);
         padding: 30px 0;
     }
