@@ -26,6 +26,10 @@ a {
 img {
     max-width: 100%;
 }
+input,
+button {
+    font-family: 'Roboto', sans-serif;
+}
 .container {
     padding: 25px 20px;
 }
@@ -625,7 +629,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--text-color-light);
+    color: var(--text-color-alt);
 }
 .table-section {
     display: flex;
@@ -1392,7 +1396,8 @@ tr input:focus {
         grid-template-columns: 1fr 1fr;
     }
     .footer-container {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
     }
     .blogs-container {
         flex-direction: column;
