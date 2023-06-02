@@ -1394,6 +1394,20 @@ tr input:focus {
     .footer-container {
         grid-template-columns: repeat(3, 1fr);
     }
+    .blogs-container {
+        flex-direction: column;
+        row-gap: 3rem;
+    }
+    .blog_card-list {
+        display: flex;
+        column-gap: 1rem;
+    }
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+    .contact-left {
+        padding: 30px 0;
+    }
 }
 @media screen and (min-width: 1200px) {
     .container {
