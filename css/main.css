@@ -27,7 +27,8 @@ img {
     max-width: 100%;
 }
 input,
-button {
+button,
+select {
     font-family: 'Roboto', sans-serif;
 }
 .container {
@@ -982,8 +983,8 @@ tr input:focus {
 }
 .blog_card-search i {
     position: absolute;
-    right: 1.2rem;
-    top: 0.5rem;
+    right: 2.2rem;
+    top: 0.7rem;
 }
 .blog-cards {
     display: flex;
@@ -1302,6 +1303,9 @@ tr input:focus {
     }
     .cart-items {
         width: 100%;
+    }
+    .cart-btns a {
+        padding: 10px 20px;
     }
     .banner-container {
         grid-template-columns: 1fr;
