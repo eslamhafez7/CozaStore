@@ -10,12 +10,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 html {
     scroll-behavior: smooth;
-}
-body {
-    font-family: 'Roboto', sans-serif;
 }
 ul {
     list-style: none;
@@ -1147,7 +1145,6 @@ tr input:focus {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
-    align-items: center;
 }
 .contact-left {
     display: flex;
